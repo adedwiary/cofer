@@ -1,5 +1,4 @@
 # COFER: Content Category & Fake User Identifier
-Classified images by training a Convolutional Nueral Network (CNN) and Classified class by training an Artificial Neural Network (ANN).
 
 ***
 
