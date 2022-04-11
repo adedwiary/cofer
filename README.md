@@ -37,8 +37,8 @@ Terdapat 5 target class
 **The image below is an example of the different images in the dataset.**
 ![image](https://user-images.githubusercontent.com/97724828/162658336-21ac2a26-828b-4026-bbd6-7e0e959e0c77.png)
 
-
 **Pembagian data:**
+
 ![image](https://user-images.githubusercontent.com/97724828/162658372-77a96a05-d5b6-48b6-aee1-983d04deff70.png)
 
 ## Dataset Fake User
@@ -57,8 +57,8 @@ Feature untuk memprediksi fake user:
 
 
 **Pembagian data**
-![image](https://user-images.githubusercontent.com/97724828/162658511-98e8fa92-85f5-4d4c-a27e-ff450ea3a822.png)
 
+![image](https://user-images.githubusercontent.com/97724828/162658511-98e8fa92-85f5-4d4c-a27e-ff450ea3a822.png)
 
 # Code and Resources used
 ***
@@ -69,30 +69,30 @@ Feature untuk memprediksi fake user:
 ## Model Content Instagram
 Model yang digunakan **Convolutional Neural Network : Efficient Net**
 
-
 **Hasil pengujian model**
+
 ![image](https://user-images.githubusercontent.com/97724828/162658814-2be527a7-41cc-4a64-8241-4c379e7a97e3.png)
 
-
 **Hasil Pengujian Confussion Matrix**
+
 ![image](https://user-images.githubusercontent.com/97724828/162658867-48fef082-409f-46a2-a039-9e9b54d60883.png)
 
-
 **Train dan Validation Loss**
+
 ![image](https://user-images.githubusercontent.com/97724828/162658891-9e7396e8-9e36-4bd6-b65b-68626033f11c.png)
 
 
 ## Model Fake User
 Model yang digunakan **Artificial Neural Network (ANN)**
 
-
 **Hasil pengujian model**
+
 ![image](https://user-images.githubusercontent.com/97724828/162658956-6fdce96a-664e-4195-b6a9-202d86996de5.png)
 
-
 **Hasil Pengujian Confusion Matrix**
+
 ![image](https://user-images.githubusercontent.com/97724828/162659004-534f278d-75eb-4c9d-97e6-d4732f870234.png)
 
-
 **Train dan Validation Loss**
+
 ![image](https://user-images.githubusercontent.com/97724828/162659044-d4dc3a99-90d4-445d-aa97-b84c314cad8c.png)
