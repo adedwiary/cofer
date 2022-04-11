@@ -37,10 +37,6 @@ Terdapat 5 target class
 **The image below is an example of the different images in the dataset.**
 ![image](https://user-images.githubusercontent.com/97724828/162658336-21ac2a26-828b-4026-bbd6-7e0e959e0c77.png)
 
-**Pembagian data:**
-
-![image](https://user-images.githubusercontent.com/97724828/162658372-77a96a05-d5b6-48b6-aee1-983d04deff70.png)
-
 ## Dataset Fake User
 Feature untuk memprediksi fake user:
 1. Rasio angka terhadap jumlah karakter di username
@@ -54,11 +50,6 @@ Feature untuk memprediksi fake user:
 9. Jumlah postingan
 10. Jumlah followers
 11. Jumlah following
-
-
-**Pembagian data**
-
-![image](https://user-images.githubusercontent.com/97724828/162658511-98e8fa92-85f5-4d4c-a27e-ff450ea3a822.png)
 
 # Code and Resources used
 ***
