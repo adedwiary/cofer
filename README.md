@@ -60,13 +60,23 @@ Feature untuk memprediksi fake user:
 ## Model Content Instagram
 Model yang digunakan **Convolutional Neural Network : Efficient Net**
 
-**Hasil pengujian model**
+Hasil pengujian model:
+| Evaluation 	|    Nilai    |
+--------- |-------------------| 
+|Accuracy	      |  89%      |
+|Precision	      |  89%          |
+|Recall	      |  89%         |
+|F1-score	      |  89%            |
 
-![image](https://user-images.githubusercontent.com/97724828/162658814-2be527a7-41cc-4a64-8241-4c379e7a97e3.png)
-
-**Hasil Pengujian Confussion Matrix**
-
-![image](https://user-images.githubusercontent.com/97724828/162658867-48fef082-409f-46a2-a039-9e9b54d60883.png)
+Hasil Pengujian Confusion Matrix:
+|   Kategori	|    Berhasil Diprediksi    |    Salah prediksi    |
+--------- |-------------------|-------------------|  
+|Beauty	      |  55      |  5      |
+|Family	      |  52          |  8      |
+|Fashion	      |  45      |  15      |
+|Fitness	      |  54          |  6      |
+|Food	      |  60          |  0      |
+|Total	      |  266         |  34      |
 
 **Train dan Validation Loss**
 
@@ -77,7 +87,7 @@ Model yang digunakan **Convolutional Neural Network : Efficient Net**
 Model yang digunakan **Artificial Neural Network (ANN)**
 
 Hasil pengujian model:
-|  	|    Nilai    |
+| Evaluation 	|    Nilai    |
 --------- |-------------------| 
 |Accuracy	      |  96%      |
 |Precision	      |  96%          |
@@ -90,8 +100,6 @@ Hasil Pengujian Confusion Matrix:
 |Real User	      |  105      |  6      |
 |Fake User	      |  91          |  6      |
 |Total	      |  196         |  12      |
-
-![image](https://user-images.githubusercontent.com/97724828/162659004-534f278d-75eb-4c9d-97e6-d4732f870234.png)
 
 **Train dan Validation Loss**
 
