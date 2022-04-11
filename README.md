@@ -76,11 +76,20 @@ Model yang digunakan **Convolutional Neural Network : Efficient Net**
 ## Model Fake User
 Model yang digunakan **Artificial Neural Network (ANN)**
 
-**Hasil pengujian model**
+Hasil pengujian model:
+|  	|    Nilai    |
+--------- |-------------------| 
+|Accuracy	      |  96%      |
+|Precision	      |  96%          |
+|Recall	      |  96%         |
+|F1-score	      |  96%            |
 
-![image](https://user-images.githubusercontent.com/97724828/162658956-6fdce96a-664e-4195-b6a9-202d86996de5.png)
-
-**Hasil Pengujian Confusion Matrix**
+Hasil Pengujian Confusion Matrix:
+|   Kategori	|    Berhasil Diprediksi    |    Salah prediksi    |
+--------- |-------------------|-------------------|  
+|Real User	      |  105      |  6      |
+|Fake User	      |  91          |  6      |
+|Total	      |  196         |  12      |
 
 ![image](https://user-images.githubusercontent.com/97724828/162659004-534f278d-75eb-4c9d-97e6-d4732f870234.png)
 
