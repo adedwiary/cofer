@@ -1,35 +1,80 @@
-# Image-Classification-using-Neural-Networks
+# Content Category & Fake User Identifier
+
 ***
-* Classified images by training a Convolutional Nueral Network (CNN).
-* Managed to receive a validation accuracy of over 93%.
-* Used the Multiclass Weather Dataset.
+* Classified images by training a Convolutional Nueral Network (CNN) and Classified class by training an Artificial Neural Network (ANN).
 
-## The Multiclass Weather Dataset
-It includes 1100 images with the following labels:
-|  Label	|    Description    |
---------- |-------------------| 
-|0	      |  Cloudy      |
-|1	      |  Rain          |
-|2	      |  Shine         |
-|3	      |  Sunrise            |
+## Masalah
+Jumlah influencer di Instagram sudah cukup banyak, yakni lebih dari 37 juta untuk yang memiliki followers sebanyak 1000 followers.
+![image](https://user-images.githubusercontent.com/97724828/162657204-c7fad5a8-a0f7-42e0-8648-10b607f89460.png)
+* Semakin banyak pengguna instagram, terutama influencer, sehingga konten instagram perlu diklasifikasikan menurut kategori untuk meningkatkan ketertarikan banyak orang.
+* Seiring dengan banyaknya pengguna instagram telah memicu menyebarnya berbagai informasi palsu di kalangan masyarakat. Akun palsu dapat menyebarkan berita palsu. Akibat dari berita palsu yang disebarluaskan dapat menyesatkan masyarakat yang mengandalkan sosial media untuk memperoleh informasi, dan berita palsu juga dapat memberikan dampak misinformasi di kalangan pengguna.
+* Berkembangnya aplikasi Sosial Media juga dapat membuka peluang yang luas bagi orang-orang tertentu untuk melakukan penipuan dengan menggunakan akun palsu. Salah satu kecurangan dari adanya akun palsu adalah penyalahgunaan identitas seseorang atau instansi yang nantinya akan digunakan untuk melakukan kejahatan seperti jual beli barang atau berbisnis. Penipuan ini dapat menimbulkan kesalahpahaman antara pengguna dalam jual beli barang dan berbisnis sehingga banyak orang atau pengguna harus berhati-hati dalam melakukan transaksi online.
+* Akun palsu juga sering ditemukan memberikan komentar spam di sosial media dengan komentar yang dianggap tidak relevan secara kontekstual. Sebagai contoh komentar spam pada halaman Instagram public figure, komentar spam tersebut dapat berupa postingan yang tidak ada kaitannya dengan postingan dan status pada halaman yang bersangkutan, seperti mengirimkan informasi yang tidak diinginkan oleh pengguna. Aktivitas spam memang mengganggu karena dapat menimbulkan informasi yang menyesatkan dan mengganggu alur diskusi dalam status hingga kesulitan mencari informasi. Apalagi komentator spam di sosial media dilakukan oleh akun palsu yang identitasnya tidak diketahui.
+* Cyberbullying juga merupakan salah satu yang patut mendapat perhatian dari dampak akun palsu sebagai tindakan pelecehan menggunakan teknologi. Aktivitas tersebut biasanya dilakukan dalam bentuk komentar jahat, posting gambar, atau video yang dimaksudkan untuk menyakiti atau mempermalukan orang lain. Hal ini berdampak besar baik bagi masyarakat maupun pengguna OSN karena dapat menimbulkan kepanikan yang berujung pada kematian. Selain itu, cyberbullying juga dapat menyebabkan penurunan mental bagi pengguna yang menjadi korbannya.
+* Oleh karena itu, untuk mengatasi masalah di atas, kami mengusulkan model untuk mengidentifikasi akun Instagram terkait kategori konten dan termasuk akun palsu atau bukan.
 
+## COFER 
+COFER bertujuan untuk mengidentifikasi akun Instagram berdasarkan Content Category dan akun tersebut termasuk Fake User atau bukan.
+
+Keunggulan dari COFER ini
+* Aksesibilitas : Semua orang dengan perangkat dapat menggunakan aplikasi COFER
+* Kemudahan : Hanya dengan mengikuti rekomendasi dan melihat insight yang diberikan
+* Hemat Biaya : Semua bebas untuk menggunakan aplikasi COFER
+
+Sasaran COFER
+* Instagram user : Semua pengguna instagram dapat menggunakan aplikasi COFER
+* Individu/ Public Figure/ Company : Semua orang yang membutuhkan informasi akun instagram tertentu
+
+## Tahapan Pembuatan Model
+1. Preparing dan preprocessing dataset
+2. Modeling dan training
+3. Evaluasi Model
+4. Inference dan deployment
+
+## Dataset Content Instagram
+Terdapat 5 target class
 **The image below is an example of the different images in the dataset.**
+![image](https://user-images.githubusercontent.com/97724828/162658336-21ac2a26-828b-4026-bbd6-7e0e959e0c77.png)
+Pembagian data:
+![image](https://user-images.githubusercontent.com/97724828/162658372-77a96a05-d5b6-48b6-aee1-983d04deff70.png)
 
-![Labels example](https://user-images.githubusercontent.com/58377262/91074268-2fa12800-e634-11ea-9905-cba981df65a7.png)
+## Dataset Fake User
+Feature untuk memprediksi fake user:
+1. Rasio angka terhadap jumlah karakter di username
+2. Jumlah karakter di full names
+3. Rasio angka terhadap jumlah karakter di full names
+4. Username dan full name sama atau tidak
+5. Jumlah karakter di bio
+6. Mempunyai URL atau tidak
+7. Private atau tidak
+8. Ada foto profil atua tidak
+9. Jumlah postingan
+10. Jumlah followers
+11. Jumlah following
 
+Pembagian data
+![image](https://user-images.githubusercontent.com/97724828/162658511-98e8fa92-85f5-4d4c-a27e-ff450ea3a822.png)
 
 # Code and Resources used
 ***
 * **Tool:** Google Colaboratory
-* **Packages:** Numpy,Keras,Matplotlib
-* **Multiclass Weather Dataset** : https://www.kaggle.com/datasets/saurabhshahane/multi-class-weather-dataset. 
-
+* **Packages:** Pandas, Numpy, Keras, Matplotlib
 
 # Findings
-* Used dropout method to reduce overfitting by the trained model.
-* Used data augmented to improve model.
-* Improved knowledge about Convolutional Neural Networks and deep learning in general.
-* Managed to obtain an accuracy close to 93%.
+## Model Content Instagram
+Model yang digunakan Efficient Net
+Hasil pengujian model
+![image](https://user-images.githubusercontent.com/97724828/162658814-2be527a7-41cc-4a64-8241-4c379e7a97e3.png)
+Hasil Pengujian Confussion Matrix
+![image](https://user-images.githubusercontent.com/97724828/162658867-48fef082-409f-46a2-a039-9e9b54d60883.png)
+Train dan Validation Loss
+![image](https://user-images.githubusercontent.com/97724828/162658891-9e7396e8-9e36-4bd6-b65b-68626033f11c.png)
 
-![Accuracy graph](https://user-images.githubusercontent.com/58377262/91074220-244dfc80-e634-11ea-8d50-7accf6aa4c6a.png)\
-The image above shows the accuracy of the training and validation datasets.
+## Model Fake User
+Model yang digunakan Artificial Neural Network (ANN)
+Hasil pengujian model
+![image](https://user-images.githubusercontent.com/97724828/162658956-6fdce96a-664e-4195-b6a9-202d86996de5.png)
+Hasil Pengujian Confusion Matrix
+![image](https://user-images.githubusercontent.com/97724828/162659004-534f278d-75eb-4c9d-97e6-d4732f870234.png)
+Train dan Validation Loss
+![image](https://user-images.githubusercontent.com/97724828/162659044-d4dc3a99-90d4-445d-aa97-b84c314cad8c.png)
