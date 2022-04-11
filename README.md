@@ -1,7 +1,7 @@
-# Content Category & Fake User Identifier
+# COFER: Content Category & Fake User Identifier
+Classified images by training a Convolutional Nueral Network (CNN) and Classified class by training an Artificial Neural Network (ANN).
 
 ***
-* Classified images by training a Convolutional Nueral Network (CNN) and Classified class by training an Artificial Neural Network (ANN).
 
 ## Masalah
 Jumlah influencer di Instagram sudah cukup banyak, yakni lebih dari 37 juta untuk yang memiliki followers sebanyak 1000 followers.
