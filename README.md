@@ -33,8 +33,10 @@ Sasaran COFER
 
 ## Dataset Content Instagram
 Terdapat 5 target class
+
 **The image below is an example of the different images in the dataset.**
 ![image](https://user-images.githubusercontent.com/97724828/162658336-21ac2a26-828b-4026-bbd6-7e0e959e0c77.png)
+
 Pembagian data:
 ![image](https://user-images.githubusercontent.com/97724828/162658372-77a96a05-d5b6-48b6-aee1-983d04deff70.png)
 
@@ -63,6 +65,7 @@ Pembagian data
 # Findings
 ## Model Content Instagram
 Model yang digunakan Efficient Net
+
 Hasil pengujian model
 ![image](https://user-images.githubusercontent.com/97724828/162658814-2be527a7-41cc-4a64-8241-4c379e7a97e3.png)
 
@@ -74,6 +77,7 @@ Train dan Validation Loss
 
 ## Model Fake User
 Model yang digunakan Artificial Neural Network (ANN)
+
 Hasil pengujian model
 ![image](https://user-images.githubusercontent.com/97724828/162658956-6fdce96a-664e-4195-b6a9-202d86996de5.png)
 
