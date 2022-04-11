@@ -65,8 +65,10 @@ Pembagian data
 Model yang digunakan Efficient Net
 Hasil pengujian model
 ![image](https://user-images.githubusercontent.com/97724828/162658814-2be527a7-41cc-4a64-8241-4c379e7a97e3.png)
+
 Hasil Pengujian Confussion Matrix
 ![image](https://user-images.githubusercontent.com/97724828/162658867-48fef082-409f-46a2-a039-9e9b54d60883.png)
+
 Train dan Validation Loss
 ![image](https://user-images.githubusercontent.com/97724828/162658891-9e7396e8-9e36-4bd6-b65b-68626033f11c.png)
 
@@ -74,7 +76,9 @@ Train dan Validation Loss
 Model yang digunakan Artificial Neural Network (ANN)
 Hasil pengujian model
 ![image](https://user-images.githubusercontent.com/97724828/162658956-6fdce96a-664e-4195-b6a9-202d86996de5.png)
+
 Hasil Pengujian Confusion Matrix
 ![image](https://user-images.githubusercontent.com/97724828/162659004-534f278d-75eb-4c9d-97e6-d4732f870234.png)
+
 Train dan Validation Loss
 ![image](https://user-images.githubusercontent.com/97724828/162659044-d4dc3a99-90d4-445d-aa97-b84c314cad8c.png)
