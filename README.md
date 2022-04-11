@@ -2,7 +2,7 @@
 
 ***
 
-## Masalah
+## Problem
 Jumlah influencer di Instagram sudah cukup banyak, yakni lebih dari 37 juta untuk yang memiliki followers sebanyak 1000 followers.
 ![image](https://user-images.githubusercontent.com/97724828/162657204-c7fad5a8-a0f7-42e0-8648-10b607f89460.png)
 * Semakin banyak pengguna instagram, terutama influencer, sehingga konten instagram perlu diklasifikasikan menurut kategori untuk meningkatkan ketertarikan banyak orang.
